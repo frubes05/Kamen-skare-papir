@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+body{
+  background: linear-gradient(to right, #ffeeee, #ddefbb);
+}
+
+h2{
+  text-decoration: underline;
+}
+
+.sve{
+  text-align: center;
+  margin:15%;
+}
+
+.opcije{
+  text-align: center;
+  margin-top:2%;
+}
+
+.odabir{
+  font-size: 1rem;
+}
+
+.rezultat,h2{
+  text-align: center;
+  font-family: "Orbitron";
+  font-size: 2rem;
+}
+
+.ponovo{
+  text-align: center;
+  font-family: "Orbitron";
+  font-size: 1rem;
+  padding:10px;
+}
+
+.kamen:after{
+  content: '\f255';
+  font-family: fontawesome;
+  font-size: 3rem;
+  padding:2rem;
+}
+
+.škare:after{
+  content: '\f257';
+  font-family: fontawesome;
+  font-size: 3rem;
+  padding:2rem;
+}
+
+.papir:after{
+  content: '\f256';
+  font-family: fontawesome;
+  font-size: 3rem;
+  padding:2rem;
+}
+
+#korisnikRezultat{
+  margin-right:1rem;
+}
+
+#racunaloRezultat{
+  margin-left:1rem;
+}
+
+button,.ponovo{
+  border-radius: 20px;
+  cursor:pointer;
+}
+
+button:hover,.ponovo:hover{
+  background-color: lightgrey;
+}
